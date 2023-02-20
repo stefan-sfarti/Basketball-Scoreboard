@@ -64,4 +64,6 @@ function newGame() {
     scoreHome = 0
     scoreGuest = 0
     whoLeads.textContent = "A new game has started"
+    console.log(scoreHome)
+    console.log(scoreGuest)
 }
