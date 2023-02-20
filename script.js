@@ -61,5 +61,7 @@ function checkLead(){
 function newGame() {
     homeScore.textContent = 0
     guestScore.textContent = 0
+    scoreHome = 0
+    scoreGuest = 0
     whoLeads.textContent = "A new game has started"
 }
